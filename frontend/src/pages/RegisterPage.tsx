@@ -27,7 +27,7 @@ const RegisterPage = () => {
     }
 
     if (password !== confirmPassword) {
-      setPasswordError('Passwords do not match')
+      setPasswordError('Passwords do not match') //new feature branch
       return
     }
 
